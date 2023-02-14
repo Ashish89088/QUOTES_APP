@@ -1,0 +1,10 @@
+1> give a dropbox option to change the font style of the quote and the Author
+2> give a button dropbox option to change the color of the text
+3> give a button dropbox option to change the background-color of the quote-text
+4> add about page
+5> give user the advantage to add background-images of their choice
+6> give user a choice to download the final quote with background
+7> add other social media for sharing like whatsapp , facebook , instagram , gmail etc
+8> add footer page
+9> make functionalities in collections to add some note to the saved quote
+10>write and add some quote to the database

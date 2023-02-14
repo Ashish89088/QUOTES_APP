@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/quotes.jpg">
+
+</head>
+
+<body>
+    {{>navbar}}
+    <!-- body container -->
+    <div class="container">
+        <div class="container-header">
+            <div id="copy-icon">
+                <i class="fa-regular fa-copy"></i>
+            </div>
+            <div id="save">
+                <button id="save-btn">SAVE</button>
+            </div>
+            <!-- A Tweet Web Intent makes it easy for your site visitors to compose and post a Tweet to their audience from a link on your webpage. -->
+            <div id="twitter-btn">
+                <button onclick="opentwitter()">
+                    <img id="twitter-logo" src="images/twitter-logo.jpg">
+                </button>
+            </div>
+        </div>
+        <div class="container-quote-mark">
+            <i class="fa-solid fa-quote-left"></i>
+        </div>
+        <div class="container-quote">
+            <div class="quote-content">QUOTES</div>
+        </div>
+        <div class="container-author">AUTHOR</div>
+        <div class="container-btn">
+            <button id="btn" onclick="getquotes()">Get Quotes</button>
+        </div>
+    </div>
+    {{>footer}}
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/054274b4b6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
